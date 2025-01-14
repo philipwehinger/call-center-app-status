@@ -21,3 +21,5 @@ else:
 
 # Button to toggle the state
 st.button("Change Status", on_click=toggle_image)
+if st.button("CELEBRATE!!!"):
+    st.balloons()
